@@ -1,0 +1,7 @@
+{
+  "name": "TuercaLux",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

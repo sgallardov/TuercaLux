@@ -1,0 +1,23 @@
+.small-card {
+  width: 100%; /* Aseguramos que la carta ocupe todo el espacio permitido dentro de su columna */
+  max-height: 10vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.small-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.columnas-x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; /* Aumentamos el espacio entre columnas y filas */
+  padding: 10px;
+  justify-items: center;
+  align-items: start; 
+}
