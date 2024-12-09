@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <IonToolbar>
           <IonTitle>Tab 1</IonTitle>
         </IonToolbar>
-      </IonHeader>s
+      </IonHeader>
       <IonContent fullscreen>
       <img src={image911} alt="911 GT4 RS" className="full-width-image" />
       <h5 className='ion-text-center'>Hora de buscar el auto de tus sueños!</h5>
@@ -62,6 +62,7 @@ const Home: React.FC = () => {
         </IonHeader>
         <ExploreContainer name="Tab 1 page" />
       </IonContent>
+      
     </IonPage>
   );
 };

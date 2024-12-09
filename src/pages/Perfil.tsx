@@ -70,7 +70,13 @@ const Perfil: React.FC = () => {
       </IonCardHeader>
 
       <IonCardContent>Muy amable y con una respuesta muy rápida, pero cuando fui a ver el vehículo estaba con miles de fallas que no se mostraron en la imágen.</IonCardContent>
+      <br>
+      </br>
+      <br></br>
+      <br></br>
     </IonCard>
+
+    
       
         <IonHeader collapse="condense">
           <IonToolbar>
